@@ -1,22 +1,29 @@
 import React from "react";
-// import './App.css';
+import '../App.css';
 import Header from "./Header";
 import SignIn from "./SignIn";
 // import ProductControl from "./ProductControl";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
-// import Navbar from "react-bootstrap/Navbar";
+import NavBar from "react-bootstrap/Navbar";
 
 function App() {
   return (
-    <Router>
+    <>
+    <BrowserRouter>
+    {/* <Router> */}
       <Header />
+      <NavBar />
       <Routes>
-        <Route path="/sign-in" element={<SignIn />} />
+        <Route exact path="/sign-in" element={<SignIn />} />
         {/* <Route path="/" element={<ProductControl />} /> */}
       </Routes>
-    </Router>
+    {/* </Router> */}
+    </BrowserRouter>
+    </>
   );
 }
 
 export default App;
+
+//useNavigate hook

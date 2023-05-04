@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import OffcanvasExample from "./navbar";
+// import { Link } from "react-router-dom";
+import OffcanvasExample from "./NavBar";
 
 function Header() {
   return (
@@ -16,13 +16,6 @@ function Header() {
         <h1>Gee's Calm Balm</h1>
       </div>
       <OffcanvasExample />
-      <Link to="/" style={{ textDecoration: "none" }}>
-        Home
-      </Link>
-      <Link to="/sign-in" style={{ textDecoration: "none" }}>
-        {" "}
-        Sign In
-      </Link>
     </React.Fragment>
   );
 }
