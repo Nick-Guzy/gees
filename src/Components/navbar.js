@@ -42,7 +42,7 @@ function OffcanvasExample() {
                     <NavDropdown.Item href="/contact-us">
                       Contact Us
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/.faqs">
+                    <NavDropdown.Item href="/faqs">
                       FAQ's
                     </NavDropdown.Item>
                   </NavDropdown>

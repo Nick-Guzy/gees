@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import NavBar from "react-bootstrap/Navbar";
 import Footer from "./Footer";
 import ContactUs from "./ContactUs";
+import FaqSection from "./FAQs";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/sign-in" element={<SignIn />} />
         <Route exact path="about-us" element={<AboutUs />} />
         <Route exact path="contact-us" element={<ContactUs />} />
+        <Route exact path="FAQs" element={<FaqSection />} />
         {/* <Route path="/" element={<ProductControl />} /> */}
       </Routes>
     {/* </Router> */}
