@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import FlowerBanner2 from './../pics/FlowerBanner2.jpg'
 
 function OffcanvasExample() {
   return (
@@ -12,7 +13,7 @@ function OffcanvasExample() {
       {[false].map((expand) => (
         <Navbar key={expand} bg="light" expand={expand} className="mb-3">
           <Container fluid>
-            <Navbar.Brand href="#" style={{ fontWeight: 'bold', color: "green" }}><em>Organic Products To Enhance Your Wellbeing</em></Navbar.Brand>
+            <Navbar.Brand href="/" style={{ fontWeight: 'bold', color: "green" }}><em>Organic Products To Enhance Your Wellbeing</em><img src={FlowerBanner2} alt="FlowerBanner2" width="1100" height="100" align=""/></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -32,14 +33,17 @@ function OffcanvasExample() {
                     title="Dropdown"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
-                    <NavDropdown.Item href="#categories">Categories
+                    <NavDropdown.Item href="/product-detail">Categories
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#aboutUs">
+                    <NavDropdown.Item href="/about-us">
                       About Us
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#contactUs">
+                    <NavDropdown.Item href="/contact-us">
                       Contact Us
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/.faqs">
+                      FAQ's
                     </NavDropdown.Item>
                   </NavDropdown>
                 </Nav>

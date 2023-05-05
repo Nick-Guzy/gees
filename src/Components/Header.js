@@ -1,5 +1,4 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import OffcanvasExample from "./NavBar";
 
 function Header() {
@@ -13,7 +12,7 @@ function Header() {
           height: "5.5vh",
         }}
       >
-        <h1>Gee's Calm Balm</h1>
+        <h1>Gee's Calm Balm&trade;</h1>
       </div>
       <OffcanvasExample />
     </React.Fragment>
