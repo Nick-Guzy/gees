@@ -30,11 +30,17 @@ function OffcanvasExample() {
                   <Nav.Link href="/home">Home</Nav.Link>
                   <Nav.Link href="/sign-in">Sign In</Nav.Link>
                   <NavDropdown
-                    title="Dropdown"
+                    title="Menu"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
-                    <NavDropdown.Item href="/product-detail">Categories
-                    </NavDropdown.Item>
+                   <NavDropdown
+                    title="Categories"
+                    id={`offcanvasNavbarDropdown-expand-${expand}`}
+                  ><NavDropdown.Item href="/face">Face</NavDropdown.Item>
+                  <NavDropdown.Item href="/body">Body</NavDropdown.Item>
+                  <NavDropdown.Item href="/serums">Serums</NavDropdown.Item>
+                  <NavDropdown.Item href="/accessories">Accessories</NavDropdown.Item>
+                  </NavDropdown> 
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="/about-us">
                       About Us

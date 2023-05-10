@@ -3,7 +3,9 @@ import Accordion from 'react-bootstrap/Accordion';
 
 function FaqSection() {
   return (
-    <Accordion>
+   <> 
+    <u><b><h2>FAQs</h2></b></u>
+   <Accordion>
       <Accordion.Item eventKey="0">
         <Accordion.Header>Where are ingridients sourced?</Accordion.Header>
         <Accordion.Body>
@@ -47,6 +49,7 @@ function FaqSection() {
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
+    </>
   );
 }
 
