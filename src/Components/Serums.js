@@ -18,6 +18,7 @@ function Serums() {
       <h1>Serums</h1>
     </div>
     <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+      <div>
     <Card style={{ width: '18rem', margin: '10px' }}>
       <Card.Img variant="top" src={Serum1} />
       <Card.Body>
@@ -36,7 +37,9 @@ function Serums() {
         {/* <Card.Link href="#">Details/Sizes</Card.Link> */}
       </Card.Body>
     </Card>
-    
+    </div>
+
+    <div style={{height: ''}}>
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={Serum2}/>
       <Card.Body>
@@ -55,7 +58,9 @@ function Serums() {
         {/* <Card.Link href="#">Details/Sizes</Card.Link> */}
       </Card.Body>
     </Card>
-
+    </div>
+    
+<div>
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={Serum3} />
       <Card.Body>
@@ -74,7 +79,8 @@ function Serums() {
         {/* <Card.Link href="#">Details/Sizes</Card.Link> */}
       </Card.Body>
     </Card>
-
+    </div>
+<div>
     <Card style={{ width: '18rem', margin: '10px' }}>
       <Card.Img variant="top" src={Serum4} />
       <Card.Body>
@@ -93,7 +99,9 @@ function Serums() {
         {/* <Card.Link href="#">Details/Sizes</Card.Link> */}
       </Card.Body>
     </Card>
+    </div>
 
+    <div>
     <Card style={{ width: '18rem', margin: '10px' }}>
       <Card.Img variant="top" src={Serum5} />
       <Card.Body>
@@ -112,6 +120,7 @@ function Serums() {
         {/* <Card.Link href="#">Details/Sizes</Card.Link> */}
       </Card.Body>
     </Card>
+    </div>
 
     <Card style={{ width: '18rem', margin: '10px' }}>
       <Card.Img variant="top" src={Serum6} />

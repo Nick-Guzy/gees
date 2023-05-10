@@ -1,8 +1,10 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
+import FlowerCorner from './../pics/FlowerCorner.jpg';
 
 function ContactUs() {
   return (
+    <>
     <div>
       <h2>Contact Us</h2>
       <p>You can reach our offices during regular business hours between 8am and 4:30pm.
@@ -22,7 +24,9 @@ function ContactUs() {
         </Card.Body>
       </Card>
       <br />
+      <img src= {FlowerCorner} alt='FlowerCorner'></img>
     </div>
+    </>
   );
 }
 

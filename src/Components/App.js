@@ -18,6 +18,7 @@ import Accessories from "./Accessories";
 function App() {
   return (
     <>
+    <div style={{marginBottom: "50px"}}>
     <BrowserRouter>
     {/* <Router> */}
       <Header />
@@ -35,6 +36,7 @@ function App() {
       </Routes>
     {/* </Router> */}
     </BrowserRouter>
+    </div>
     <Footer />
     </>
   );
