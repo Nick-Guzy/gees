@@ -7,8 +7,7 @@ function ContactUs() {
     <>
     <div>
       <h2>Contact Us</h2>
-      <p>You can reach our offices during regular business hours between 8am and 4:30pm.
-      We have offices in each region of the United States to better reach everyone. Our contact info can be found below.</p>
+      <p>You can reach our offices during regular business hours between 8am and 4:30pm.</p>
       <br />
       <Card border="dark" style={{ width: '18rem' }}>
         <Card.Header>Phone | Email | Fax</Card.Header>
@@ -24,7 +23,8 @@ function ContactUs() {
         </Card.Body>
       </Card>
       <br />
-      <img src= {FlowerCorner} alt='FlowerCorner'></img>
+      <img style={{ float: "right", marginTop: "-560px", width: "40%", height: "40%" }} 
+          src= {FlowerCorner} alt='FlowerCorner'></img>
     </div>
     </>
   );
