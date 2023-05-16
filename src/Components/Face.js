@@ -30,7 +30,7 @@ function Face() {
         <ListGroup.Item>Ingridients: Orange and grapefruit extract</ListGroup.Item>
       </ListGroup>
       <Card.Body>
-        <Card.Link href="#">Add to cart/Details/Sizes</Card.Link>
+        <Card.Link href="/">Add to cart/Details/Sizes</Card.Link>
         {/* <Card.Link href="#">Details/Sizes</Card.Link> */}
       </Card.Body>
     </Card>
@@ -49,7 +49,7 @@ function Face() {
         <ListGroup.Item>Ingridients: Shea butter</ListGroup.Item>
       </ListGroup>
       <Card.Body>
-        <Card.Link href="#">Add to cart/Details/Sizes</Card.Link>
+        <Card.Link href="/">Add to cart/Details/Sizes</Card.Link>
         {/* <Card.Link href="#">Details/Sizes</Card.Link> */}
       </Card.Body>
     </Card>
@@ -68,7 +68,7 @@ function Face() {
         <ListGroup.Item>Ingridients: Shea butter</ListGroup.Item>
       </ListGroup>
       <Card.Body>
-        <Card.Link href="#">Add to cart/Details/Sizes</Card.Link>
+        <Card.Link href="/">Add to cart/Details/Sizes</Card.Link>
         {/* <Card.Link href="#">Details/Sizes</Card.Link> */}
       </Card.Body>
     </Card>
@@ -87,7 +87,7 @@ function Face() {
         <ListGroup.Item>Ingridients: Shea butter</ListGroup.Item>
       </ListGroup>
       <Card.Body>
-        <Card.Link href="#">Add to cart/Details/Sizes</Card.Link>
+        <Card.Link href="/">Add to cart/Details/Sizes</Card.Link>
         {/* <Card.Link href="#">Details/Sizes</Card.Link> */}
       </Card.Body>
     </Card>
@@ -106,7 +106,7 @@ function Face() {
         <ListGroup.Item>Ingridients: Shea butter</ListGroup.Item>
       </ListGroup>
       <Card.Body>
-        <Card.Link href="#">Add to cart/Details/Sizes</Card.Link>
+        <Card.Link href="/">Add to cart/Details/Sizes</Card.Link>
         {/* <Card.Link href="#">Details/Sizes</Card.Link> */}
       </Card.Body>
     </Card>
@@ -125,7 +125,7 @@ function Face() {
         <ListGroup.Item>Ingridients: Shea butter</ListGroup.Item>
       </ListGroup>
       <Card.Body>
-        <Card.Link href="#">Add to cart/Details/Sizes</Card.Link>
+        <Card.Link href="/">Add to cart/Details/Sizes</Card.Link>
         {/* <Card.Link href="#">Details/Sizes</Card.Link> */}
       </Card.Body>
     </Card>

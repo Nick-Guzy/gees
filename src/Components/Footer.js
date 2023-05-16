@@ -11,6 +11,7 @@ function Footer() {
       height: "5vh",
       position: "fixed",
       backgroundColor: "lightgray",
+      color: "black"
       
     }}>
     <><p><b>CONTACT US: | Los Angeles, CA:</b>1-213-453-7898<b> Email:</b>info@GeesCalmBalm.com</p></>
