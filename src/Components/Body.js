@@ -10,7 +10,7 @@ function Body() {
       <h1>Body</h1>
     </div>
     <div style={{ display: 'flex', flexWrap: 'wrap' }}>
-    {Products.Body.map((bodyItem) => (<Card style={{ width: '18rem', margin: '10px' }}>
+    {Products.body.map((bodyItem) => (<Card style={{ width: '18rem', margin: '10px' }}>
       <Card.Img variant="top" src={bodyItem.src} style={{ height: '300px' }} />
       <Card.Body>
         <Card.Title>{bodyItem.title}</Card.Title>
