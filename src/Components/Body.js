@@ -1,13 +1,7 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-import BoCR1 from './../pics/BoCR1.jpg'
-import BoCR2 from './../pics/BoCR2.jpg'
-import BoCR3 from './../pics/BoCR3.jpg'
-import BoCR4 from './../pics/BoCR4.jpg'
-import BoCR5 from './../pics/BoCR5.jpg'
-import BoCR6 from './../pics/BoCR6.jpg'
-import BoCR7 from './../pics/BoCR7.jpg'
+
 
 function Body() {
   return(

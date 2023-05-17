@@ -14,6 +14,7 @@ import Face from "./Face";
 import Body from "./Body";
 import Serums from "./Serums";
 import Accessories from "./Accessories";
+import ProductDetail from "./ProductDetail";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route exact path="Body" element={<Body />} />
         <Route exact path="Serums" element={<Serums />} />
         <Route exact path="Accessories" element={<Accessories />} />
+        <Route path="product/:id" element={<ProductDetail />} />
         {/* <Route path="/" element={<ProductControl />} /> */}
       </Routes>
     {/* </Router> */}

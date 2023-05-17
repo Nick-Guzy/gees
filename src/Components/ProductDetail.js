@@ -12,6 +12,7 @@ function ProductDetail(props){
       <p>{product.description}</p>
       <p>{product.quantity}</p>
       <hr/>
+      <button type="submit">Home</button>
     </React.Fragment>
   );
 }

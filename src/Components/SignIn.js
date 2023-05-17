@@ -5,6 +5,7 @@ import {
   signInWithEmailAndPassword,
   signOut
 } from "firebase/auth";
+import { Link } from "react-router-dom";
 
 function SignIn() {
   const [signUpSuccess, setSignUpSuccess] = useState(null);
@@ -65,7 +66,9 @@ function SignIn() {
       <form onSubmit={doSignIn}>
         <input type="text" name="signinEmail" placeholder="email" />
         <input type="password" name="signinPassword" placeholder="Password" />
+        <Link to="/">
         <button type="submit">Sign in</button>
+        </Link>
       </form>
       <h1>Sign Out</h1>
       {signOutSuccess}
