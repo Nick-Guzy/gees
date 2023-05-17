@@ -25,7 +25,7 @@ function Accessories() {
           <ListGroup.Item>{accessoryItem.ingridients}</ListGroup.Item>
         </ListGroup>
         <Card.Body>
-          <Card.Link href="ProductDetail/">Add to cart/Details/Sizes</Card.Link>
+          <Card.Link href={`/product/${accessoryItem.id}`}>Add to cart/Details/Sizes</Card.Link>
         </Card.Body>
       </Card>))}</div></>
   );

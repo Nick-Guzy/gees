@@ -4,28 +4,28 @@ import Cream3 from "./pics/Cream3.jpg";
 import Cream4 from "./pics/Cream4.jpg";
 import Aloe from "./pics/Aloe.jpg";
 import LotionBlocks from "./pics/LotionBlocks.jpg";
-import BoCR1 from "./../pics/BoCR1.jpg";
-import BoCR2 from "./../pics/BoCR2.jpg";
-import BoCR3 from "./../pics/BoCR3.jpg";
-import BoCR4 from "./../pics/BoCR4.jpg";
-import BoCR5 from "./../pics/BoCR5.jpg";
-import BoCR6 from "./../pics/BoCR6.jpg";
-import BoCR7 from "./../pics/BoCR7.jpg";
-import Serum1 from "./../pics/Serum1.jpg";
-import Serum2 from "./../pics/Serum2.jpg";
-import Serum3 from "./../pics/Serum3.jpg";
-import Serum4 from "./../pics/Serum4.jpg";
-import Serum5 from "./../pics/Serum5.jpg";
-import Serum6 from "./../pics/Serum6.jpg";
-import Serum7 from "./../pics/Serum7.jpg";
-import Serum8 from "./../pics/Serum8.jpg";
-import RollerBrush from "./../pics/RollerBrush.jpg";
-import Soap from "./../pics/Soap.jpg";
-import Soap2 from "./../pics/Soap2.jpg";
-import Soap3 from "./../pics/Soap3.jpg";
-import Soap4 from "./../pics/Soap4.jpg";
-import Soap5 from "./../pics/Soap5.jpg";
-import Soap6 from "./../pics/Soap6.jpg";
+import BoCR1 from "./pics/BoCR1.jpg";
+import BoCR2 from "./pics/BoCR2.jpg";
+import BoCR3 from "./pics/BoCR3.jpg";
+import BoCR4 from "./pics/BoCR4.jpg";
+import BoCR5 from "./pics/BoCR5.jpg";
+import BoCR6 from "./pics/BoCR6.jpg";
+import BoCR7 from "./pics/BoCR7.jpg";
+import Serum1 from "./pics/Serum1.jpg";
+import Serum2 from "./pics/Serum2.jpg";
+import Serum3 from "./pics/Serum3.jpg";
+import Serum4 from "./pics/Serum4.jpg";
+import Serum5 from "./pics/Serum5.jpg";
+import Serum6 from "./pics/Serum6.jpg";
+import Serum7 from "./pics/Serum7.jpg";
+import Serum8 from "./pics/Serum8.jpg";
+import RollerBrush from "./pics/RollerBrush.jpg";
+import Soap from "./pics/Soap.jpg";
+import Soap2 from "./pics/Soap2.jpg";
+import Soap3 from "./pics/Soap3.jpg";
+import Soap4 from "./pics/Soap4.jpg";
+import Soap5 from "./pics/Soap5.jpg";
+import Soap6 from "./pics/Soap6.jpg";
 
 const Products = {
   faceProducts: [
@@ -308,5 +308,7 @@ const Products = {
     },
   ],
 };
+
+// Method
 
 export default Products;

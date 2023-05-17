@@ -24,7 +24,7 @@ function Body() {
         <ListGroup.Item>{bodyItem.ingridients}</ListGroup.Item>
       </ListGroup>
       <Card.Body>
-        <Card.Link href="/ProductDetail">Add to cart/Details/Sizes</Card.Link>
+        <Card.Link href={`/product/${bodyItem.id}`}>Add to cart/Details/Sizes</Card.Link>
       </Card.Body>
     </Card>))}</div></>
 

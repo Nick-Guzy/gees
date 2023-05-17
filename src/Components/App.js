@@ -3,7 +3,6 @@ import '../App.css';
 import Header from "./Header";
 import SignIn from "./SignIn";
 import AboutUs from "./AboutUs";
-// import ProductControl from "./ProductControl";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import NavBar from "react-bootstrap/Navbar";
@@ -34,7 +33,6 @@ function App() {
         <Route exact path="Serums" element={<Serums />} />
         <Route exact path="Accessories" element={<Accessories />} />
         <Route path="product/:id" element={<ProductDetail />} />
-        {/* <Route path="/" element={<ProductControl />} /> */}
       </Routes>
     {/* </Router> */}
     </BrowserRouter>
@@ -45,5 +43,3 @@ function App() {
 }
 
 export default App;
-
-//useNavigate hook
