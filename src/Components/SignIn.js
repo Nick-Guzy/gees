@@ -5,9 +5,12 @@ import {
   signInWithEmailAndPassword,
   signOut
 } from "firebase/auth";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
+
 
 function SignIn() {
+  const navigate = useNavigate();
   const [signUpSuccess, setSignUpSuccess] = useState(null);
   const [signInSuccess, setSignInSuccess] = useState(null);
   const [signOutSuccess, setSignOutSuccess] = useState(null);
@@ -32,11 +35,15 @@ function SignIn() {
     event.preventDefault();
     const email = event.target.signinEmail.value;
     const password = event.target.signinPassword.value;
+    
+
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         setSignInSuccess(
           `You've successfully signed in as ${userCredential.user.email}!`
         );
+        navigate("/");
+
       })
       .catch((error) => {
         setSignInSuccess(`There was an error signing in: ${error.message}!`);
@@ -66,9 +73,7 @@ function SignIn() {
       <form onSubmit={doSignIn}>
         <input type="text" name="signinEmail" placeholder="email" />
         <input type="password" name="signinPassword" placeholder="Password" />
-        <Link to="/">
         <button type="submit">Sign in</button>
-        </Link>
       </form>
       <h1>Sign Out</h1>
       {signOutSuccess}
@@ -79,3 +84,4 @@ function SignIn() {
 }
 
 export default SignIn;
+

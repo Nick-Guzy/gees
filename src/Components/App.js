@@ -32,7 +32,7 @@ function App() {
         <Route exact path="Body" element={<Body />} />
         <Route exact path="Serums" element={<Serums />} />
         <Route exact path="Accessories" element={<Accessories />} />
-        <Route path="product/:type :id" element={<ProductDetail />} />
+        <Route path="product/:type/:id" element={<ProductDetail />} />
       </Routes>
     </BrowserRouter>
     </div>

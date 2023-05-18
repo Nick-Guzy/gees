@@ -30,24 +30,22 @@ import Soap6 from "./pics/Soap6.jpg";
 
 export function GetDetails(id, type) {
   let foundItem;
-  let faceProducts;
-  let accessories;
-  let serums;
-  let body;
-
-  if (type === "faceProducts") {
-    foundItem = faceProducts.find(item => item.id === id);
-   
+  id = parseInt(id)
+  
+  if (type === "face") {
+    foundItem = Products.faceProducts.find(item => item.id === id);
+   console.log("facebranch")
   } else if (type === "accessories") {
-    foundItem = accessories.find(item => item.id === id);
+    foundItem = Products.accessories.find(item => item.id === id);
     
   } else if (type === "serums") {
-    foundItem = serums.find(item => item.id === id);
+    foundItem = Products.serums.find(item => item.id === id);
     
   } else if (type === "body") {
-    foundItem = body.find(item => item.id === id);
+    foundItem = Products.body.find(item => item.id === id);
     
   }
+  console.log(foundItem)
   return foundItem;
 }
 
