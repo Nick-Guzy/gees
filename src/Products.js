@@ -27,6 +27,31 @@ import Soap4 from "./pics/Soap4.jpg";
 import Soap5 from "./pics/Soap5.jpg";
 import Soap6 from "./pics/Soap6.jpg";
 
+
+export function GetDetails(id, type) {
+  let foundItem;
+  let faceProducts;
+  let accessories;
+  let serums;
+  let body;
+
+  if (type === "faceProducts") {
+    foundItem = faceProducts.find(item => item.id === id);
+   
+  } else if (type === "accessories") {
+    foundItem = accessories.find(item => item.id === id);
+    
+  } else if (type === "serums") {
+    foundItem = serums.find(item => item.id === id);
+    
+  } else if (type === "body") {
+    foundItem = body.find(item => item.id === id);
+    
+  }
+  return foundItem;
+}
+
+
 const Products = {
   faceProducts: [
     {
@@ -309,6 +334,5 @@ const Products = {
   ],
 };
 
-// Method
 
 export default Products;

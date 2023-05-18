@@ -25,7 +25,7 @@ function Serums() {
         <ListGroup.Item>{serumItem.ingridients}</ListGroup.Item>
       </ListGroup>
       <Card.Body>
-        <Card.Link href={`/product/${serumItem.id}`}>Add to cart/Details/Sizes</Card.Link>
+        <Card.Link href={`/product/serums/${serumItem.id}`}>Add to cart/Details/Sizes</Card.Link>
       </Card.Body>
     </Card>))}</div></>
   );

@@ -10,10 +10,10 @@ function ProductList(props){
       {props.productList.map((product) =>
         <Product 
           whenProductClicked={props.onProductSelection}
-          name={product.name}
+          title={product.title}
           price={product.price}
           description={product.description}
-          quantity={product.quantity}
+          size={product.size}
           id={product.id}
           key={product.id}/>
       )}

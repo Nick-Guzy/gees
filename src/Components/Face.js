@@ -25,7 +25,7 @@ function Face() {
         <ListGroup.Item>{faceItem.ingridients}</ListGroup.Item>
       </ListGroup>
       <Card.Body>
-        <Card.Link href={`/product/${faceItem.id}`}>Add to cart/Details/Sizes</Card.Link>
+        <Card.Link href={`/product/face/${faceItem.id}`}>Add to cart/Details/Sizes</Card.Link>
       </Card.Body>
     </Card>))}</div></>
   );

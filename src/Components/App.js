@@ -15,12 +15,12 @@ import Serums from "./Serums";
 import Accessories from "./Accessories";
 import ProductDetail from "./ProductDetail";
 
+
 function App() {
   return (
     <>
     <div style={{marginBottom: "50px"}}>
     <BrowserRouter>
-    {/* <Router> */}
       <Header />
       <NavBar />
       <Routes>
@@ -32,9 +32,8 @@ function App() {
         <Route exact path="Body" element={<Body />} />
         <Route exact path="Serums" element={<Serums />} />
         <Route exact path="Accessories" element={<Accessories />} />
-        <Route path="product/:id" element={<ProductDetail />} />
+        <Route path="product/:type :id" element={<ProductDetail />} />
       </Routes>
-    {/* </Router> */}
     </BrowserRouter>
     </div>
     <Footer />
